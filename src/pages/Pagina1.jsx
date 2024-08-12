@@ -20,7 +20,7 @@ export function Pagina1() {
           <p >Nosso produto é feito especificamente para pessoas com problemas respiratórios, sejam elas crianças, adultos ou idosos. Fizemos pensando em dar uma melhor qualidade de vida para todos.</p>
         </section>
         <div>
-          <a href="" >Sobre nós</a>
+          <a href="/teste" >Sobre nós</a> {/*precisa do msm nome q ta no path pro bglh aq funcionar, como la ta /teste, tem q colocar /teste aq pq senao da erro*/}
           <a href="" >Materiais</a>
           <a href="" >Referências</a>
           <a href="" >Guia</a>
