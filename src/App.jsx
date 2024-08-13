@@ -1,10 +1,13 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { ThemeProvider } from "styled-components"
 
-import { Pagina1 } from "./pages/Pagina1"
+import { Pagina1 } from "./pages/Pagina1.jsx"
 import { theme } from "./styles/theme.js"
 import { GlobalStyle } from "./styles/global.js"
-import { Teste } from "./pages/Teste.jsx"
+import { SobreNos } from "./pages/SobreNos.jsx"
+import { Refs } from "./pages/Refs.jsx"
+import { Guia } from "./pages/Guia.jsx"
+import { Mate } from "./pages/Mate.jsx"
 
 const router = createBrowserRouter([
   {
@@ -12,8 +15,20 @@ const router = createBrowserRouter([
     element: <Pagina1/>
   },
   {
-    path: "/teste",
-    element: <Teste/> //pra fazer uma outra pagina precisa disso aq ent é só copiar esse modelo, n vou apagar e é isso, vai ficar assim msm
+    path: "/sobre",
+    element: <SobreNos/> //pra fazer uma outra pagina precisa disso aq ent é só copiar esse modelo, n vou apagar e é isso, vai ficar assim msm
+  },
+  {
+    path: "/refs",
+    element: <Refs/>
+  },
+  {
+    path: "/guia",
+    element: <Guia/>
+  },
+  {
+    path: "/mate",
+    element: <Mate/>
   }
 ])
 
