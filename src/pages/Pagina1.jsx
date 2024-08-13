@@ -19,12 +19,16 @@ export function Pagina1() {
           <h2 class="Subtitulo">Público alvo</h2>
           <p class="Descricao">Nosso produto é feito especificamente para pessoas com problemas respiratórios, sejam elas crianças, adultos ou idosos. Fizemos pensando em dar uma melhor qualidade de vida para todos.</p>
         </section>
-        <h2>Saiba Mais</h2>{/*tem isso aq pra editar bob, ele é um h2 q fica encima das ancoras q levam pra outras paginas*/}
+        <h2 class="SaibaMais">Saiba Mais</h2>{/*tem isso aq pra editar bob, ele é um h2 q fica encima das ancoras q levam pra outras paginas*/}
         <div>
-          <a class="link1" href="/sobre" >Sobre nós</a> {/*precisa do msm nome q ta no path pro bglh aq funcionar, como la ta /teste, tem q colocar /teste aq pq senao da erro*/}
-          <a class="link1"href="/mate" >Materiais</a>
-          <a class="link1"href="/refs" >Referências</a>
-          <a class="link1"href="/guia" >Guia</a>
+          <div class="coluna1">
+            <a class="link1" href="/sobre" >Sobre nós</a> {/*precisa do msm nome q ta no path pro bglh aq funcionar, como la ta /teste, tem q colocar /teste aq pq senao da erro*/}
+            <a class="link2"href="/mate" >Materiais</a>
+          </div>
+          <div class="coluna2">
+            <a class="link3"href="/refs" >Referências</a>
+            <a class="link4"href="/guia" >Guia</a>
+          </div>
         </div>
       </main>
     </Home>
