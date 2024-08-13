@@ -14,17 +14,32 @@ export const Home = styled.div`
     color: #0a0a78;
     margin-bottom: 20px;
 
-    .Logo img {
+    img {
       max-width: 200px;
-      max-height: 150px;
+      max-height: 200px;
     }
   }
 
-  .Title {
-    font-size: 1.5em;
+  .Titulo {
+    font-size: 3rem;
     color: #0a0a78;
     margin-bottom: 20px;
   }
 
-  
+  .Subtitulo {
+    background-color: #1465BB;
+    font-size: 2rem;
+    color: #81C9FA;
+    margin-bottom: 10px;
+  }
+
+  .Descricao {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 20px;
+  }
+
+  ;
+
+
 `

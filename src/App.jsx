@@ -1,3 +1,5 @@
+//para de colocar as coisas em ingles pq a gente n é ingles
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { ThemeProvider } from "styled-components"
 
