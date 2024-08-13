@@ -31,9 +31,9 @@ export const Home = styled.div`
     background-color: #1465BB;
     font-size: 2rem;
     color: #81C9FA;
-    margin-bottom: 10px;
-    margin-left: 30rem;
-    margin-right: 30rem;
+    margin-top: 30px;
+    margin-left: 29rem;
+    margin-right: 29rem;
     border-radius: 5px;
   }
 
@@ -41,7 +41,7 @@ export const Home = styled.div`
     background-color: #1465BB;
     font-size: 2rem;
     color: #81C9FA;
-    margin-bottom: 10px;
+    margin-top: 5rem;
     margin-left: 28rem;
     margin-right: 28rem;
     border-radius: 5px;
@@ -50,7 +50,7 @@ export const Home = styled.div`
   .Descricao {
     font-size: 1.2rem;
     color: #000;
-    margin-bottom: 20px;
+    margin-top: 20px;
     margin-left: 15rem;
     margin-right: 15rem;
   }
@@ -58,7 +58,7 @@ export const Home = styled.div`
   .Descricao1 {
     font-size: 1.2rem;
     color: #000;
-    margin-bottom: 20px;
+    margin-top: 20px;
     margin-left: 15rem;
     margin-right: 15rem;
   }
@@ -70,10 +70,74 @@ export const Home = styled.div`
     margin-bottom: 10px;
     border-radius: 5px;
     padding-left: 5px;
+    text-decoration: none;
+    margin-left: 5rem;
 
     &:hover {
       background-color: #005bb5;
+    }
   }
+
+  .SaibaMais {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #1A2D7A;
+  }
+
+  .link2 {
+    background-color: #1465BB;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    margin-left: 5rem;
+
+    &:hover {
+      background-color: #005bb5;
+    }
+  }
+
+  .link3 {
+    background-color: #1465BB;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    margin-left: 5rem;
+
+    &:hover {
+      background-color: #005bb5;
+    }
+  }
+
+  .link4 {
+    background-color: #1465BB;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    margin-left: 5rem;
+
+    &:hover {
+      background-color: #005bb5;
+    }
+  }
+
+  .coluna1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coluna2 {
+    display: flex;
+    flex-direction: column;
   }
 
   ;
