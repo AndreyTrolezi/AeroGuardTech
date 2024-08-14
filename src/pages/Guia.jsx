@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo-escura.png"
 
 import cerebro from "../assets/eng-cerebro.png"
 import olho from "../assets/olho.png"
@@ -7,13 +7,13 @@ import eng from "../assets/eng-config.png"
 export function Guia() {
   return (
     <div>
-      <header>
-        <div>
-          <img src={Logo} alt="" />
-          <a href="/" >Produto</a> {/*precisa do msm nome q ta no path pro bglh aq funcionar, como la ta /teste, tem q colocar /teste aq pq senao da erro*/}
-          <a href="/mate" >Materiais</a>
-          <a href="/sobre" >Sobre Nós</a>
-          <a href="/refs" >Referências</a>
+      <header class="header">
+        <div className="inicio">
+          <img src={Logo} alt="Logo" />
+          <a class="bt1"href="/">Produto</a>
+          <a class="bt2"href="/sobre">Sobre Nós</a>
+          <a class="bt3"href="/mate">Materiais</a>
+          <a class="bt4"href="/refs">Referências</a>
         </div>
       </header>
       <div>

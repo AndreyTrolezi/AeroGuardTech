@@ -1,15 +1,15 @@
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo-escura.png"
 
 export function Refs() {
   return (
     <div>
-      <header>
-        <div>
-          <img src={Logo} alt="" />
-          <a href="/" >Produto</a> {/*precisa do msm nome q ta no path pro bglh aq funcionar, como la ta /teste, tem q colocar /teste aq pq senao da erro*/}
-          <a href="/mate" >Materiais</a>
-          <a href="/sobre" >Sobre Nós</a>
-          <a href="/guia" >Guia</a>
+      <header class="header">
+        <div className="inicio">
+          <img src={Logo} alt="Logo" />
+          <a class="bt1"href="/">Produto</a>
+          <a class="bt2"href="/sobre">Sobre Nós</a>
+          <a class="bt3"href="/guia">Guia</a>
+          <a class="bt4"href="/mate">Materiais</a>
         </div>
       </header>
       <div>

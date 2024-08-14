@@ -24,7 +24,7 @@ export const Home = styled.div`
         color: #0a0a78;
         max-width: 120px;
         max-height: 120px;
-      }
+    }
 
       .bt1, .bt2, .bt3, .bt4 {
         background-color: #1465bb;
@@ -36,7 +36,7 @@ export const Home = styled.div`
         border-radius: 10px;
         padding-left: 40px;
         padding-right: 40px;
-        
+
         &:hover {
           background-color: #005bb5;
         }
@@ -49,37 +49,9 @@ export const Home = styled.div`
     padding: 40px 20px;
 
     h1 {
-      color: #119dfc;
+      color: #119DFC;
       font-size: 60px;
       margin-bottom: 40px;
-    }
-
-    section {
-      margin-bottom: 40px;
-
-      h3 {
-        color: #1308aa;
-        font-size: 20px;
-        margin-bottom: 5px;
-      }
-
-      img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        margin-bottom: 15px;
-      }
-
-      h2 {
-        color: #119dfc;
-        font-size: 20px;
-        margin-bottom: 5px;
-      }
-
-      p {
-        font-size: 16px;
-        margin: 5px 0;
-      }
     }
   }
 
@@ -91,6 +63,26 @@ export const Home = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 9.5rem;
+  }
+
+  .setaD {
+    margin-left: 6rem;
+    margin-top: 5rem;
+  }
+
+  .setaE {
+    margin-top: 5rem;
+  }
+
+  .espaco1 {
+    margin-left: 10rem;
+  }
+
+  p {
+    margin-left: 10rem;
+    font-size: 25px;
+    color: #1308AA;
+    margin-bottom: 1rem;
   }
 `
