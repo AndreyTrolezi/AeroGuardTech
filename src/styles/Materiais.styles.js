@@ -5,6 +5,7 @@ export const Home = styled.div`
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
   max-width: 100%;
+  
     
   .header {
     background-color: #1A2D7A;

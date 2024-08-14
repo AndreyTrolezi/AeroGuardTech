@@ -5,7 +5,8 @@ export const Home = styled.div`
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
   max-width: 100%;
-    
+  flex-direction: row;
+
   .header {
     background-color: #1A2D7A;
     padding: 9,5px;
