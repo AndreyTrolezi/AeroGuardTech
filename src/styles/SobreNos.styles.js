@@ -86,6 +86,7 @@ export const Home = styled.div`
 
   .imgs {
     display: flex;
+    justify-content: center;
   }
 
   .espaco {
