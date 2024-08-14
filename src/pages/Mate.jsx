@@ -1,9 +1,5 @@
 import Logo from "../assets/logo.png"
 
-import dir from "../assets/lado-direito.png"
-import esq from "../assets/lado-esquerdo.png"
-import bola from "../assets/bola-espiral.png"
-
 import eletrogate from "../assets/eletrogate.png"
 import robocore from "../assets/robocore.png"
 
@@ -32,16 +28,10 @@ export function Mate() {
           <img src={ robocore } alt="robocore" />
         </section>
         <section>
-          <img src={ dir } alt="direita" />
           <img src={ seta_dir } alt="Seta direita" />
-          <img src={ bola } alt="Bola" />
-          <img src={ bola } alt="Bola" />
         </section>
         <section>
-          <img src={ esq } alt="direita" />
           <img src={ seta_esq } alt="Seta esquerda" />
-          <img src={ bola } alt="Bola" />
-          <img src={ bola } alt="Bola" />
         </section>
       </main>
     </div>

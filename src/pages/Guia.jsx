@@ -1,9 +1,5 @@
 import Logo from "../assets/logo.png"
 
-import dir from "../assets/lado-direito.png"
-import esq from "../assets/lado-esquerdo.png"
-import bola from "../assets/bola-espiral.png"
-
 import cerebro from "../assets/eng-cerebro.png"
 import olho from "../assets/olho.png"
 import eng from "../assets/eng-config.png"
@@ -37,14 +33,6 @@ export function Guia() {
           <h3>Configuração</h3>
           <p>Acesse as configurações no aplicativo para definir os limites desejados para temperatura e umidade. Estabeleça os valores mínimos e máximos aceitáveis para ambos os parâmetros. Isso permitirá que o dispositivo identifique condições fora dos limites e envie alertas correspondentes.</p>
         </section>
-        <div>
-          <img src={dir} alt="" />
-          <img src={bola} alt="" />
-          <img src={bola} alt="" />
-          <img src={bola} alt="" />
-          <img src={bola} alt="" />
-          <img src={esq} alt="" />
-        </div>
       </div>
     </div>
   )

@@ -71,7 +71,10 @@ export const Home = styled.div`
     border-radius: 5px;
     padding-left: 5px;
     text-decoration: none;
-    margin-left: 5rem;
+    padding: 10px;
+    text-align: center;
+    margin: 0 100px;
+    min-width: 150px; 
 
     &:hover {
       background-color: #005bb5;
@@ -93,8 +96,10 @@ export const Home = styled.div`
     border-radius: 5px;
     padding-left: 5px;
     text-decoration: none;
-    margin-left: 5rem;
-
+    padding: 10px; 
+    text-align: center;
+    margin: 0 100px; 
+    min-width: 150px;
     &:hover {
       background-color: #005bb5;
     }
@@ -108,8 +113,10 @@ export const Home = styled.div`
     border-radius: 5px;
     padding-left: 5px;
     text-decoration: none;
-    margin-left: 5rem;
-
+    padding: 10px; 
+    text-align: center;
+    margin: 0 100px; 
+    min-width: 150px; 
     &:hover {
       background-color: #005bb5;
     }
@@ -123,24 +130,27 @@ export const Home = styled.div`
     border-radius: 5px;
     padding-left: 5px;
     text-decoration: none;
-    margin-left: 5rem;
+    padding: 10px;
+    text-align: center;
+    margin: 0 100px; 
+    min-width: 150px; 
+    
 
     &:hover {
       background-color: #005bb5;
     }
   }
 
-  .coluna1 {
+  .coluna {
     display: flex;
     flex-direction: column;
   }
 
-  .coluna2 {
+  .espaco {
     display: flex;
-    flex-direction: column;
+    justify-content: center; 
+    width: 100%; 
+    margin-bottom: 70px;
   }
-
-  ;
-
 
 `

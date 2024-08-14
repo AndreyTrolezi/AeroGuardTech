@@ -1,9 +1,5 @@
 import Logo from "../assets/logo.png"
 
-import dir from "../assets/lado-direito.png"
-import esq from "../assets/lado-esquerdo.png"
-import bola from "../assets/bola-espiral.png"
-
 export function Refs() {
   return (
     <div>
@@ -33,14 +29,6 @@ export function Refs() {
         <section>
             <h3>Poluição ambiental como factor de risco para o aumento de asma brônquica?</h3>
         </section>
-      </div>
-      <div>
-        <img src={dir} alt="" />
-        <img src={bola} alt="" />
-        <img src={bola} alt="" />
-        <img src={bola} alt="" />
-        <img src={bola} alt="" />
-        <img src={esq} alt="" />
       </div>
     </div>
   )
