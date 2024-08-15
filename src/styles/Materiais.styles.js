@@ -5,6 +5,7 @@ export const Home = styled.div`
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
   max-width: 100%;
+  padding-bottom: 17.8rem;
   
     
   .header {
@@ -37,6 +38,7 @@ export const Home = styled.div`
         border-radius: 10px;
         padding-left: 40px;
         padding-right: 40px;
+        margin-left: 100px;
 
         &:hover {
           background-color: #005bb5;
@@ -58,6 +60,7 @@ export const Home = styled.div`
 
   .imgs {
     display: flex;
+    justify-content: center;
   }
 
   .espaco {

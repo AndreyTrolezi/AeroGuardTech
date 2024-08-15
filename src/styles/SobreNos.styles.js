@@ -4,8 +4,9 @@ export const Home = styled.div`
 
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
-  max-width: 100%;
+  padding-bottom: 11.2rem;
   flex-direction: row;
+  
 
   .header {
     background-color: #1A2D7A;
@@ -37,6 +38,7 @@ export const Home = styled.div`
         border-radius: 10px;
         padding-left: 40px;
         padding-right: 40px;
+        margin-left: 100px;
         
         &:hover {
           background-color: #005bb5;
@@ -87,12 +89,40 @@ export const Home = styled.div`
   .imgs {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
   }
 
-  .espaco {
+  .espaco1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 90px;
+    color: #1A2D7A;
+  }
+
+  .espaco2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+    color: #1A2D7A;
+  }
+
+  .espaco3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 40px;
+    color: #1A2D7A;
+  }
+
+  .espaco4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 85px;
+    color: #1A2D7A;
   }
 `

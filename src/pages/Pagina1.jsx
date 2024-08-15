@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png"
 
-import { Home } from "../styles/Pagina1.styles"
+import { Home } from "../styles/pagina1.styles"
 
 export function Pagina1() {
   return (

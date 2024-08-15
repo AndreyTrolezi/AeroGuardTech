@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Home = styled.div`
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
+  padding-bottom: 21.6rem;
   max-width: 100%;
   
   .header {
@@ -35,6 +36,7 @@ export const Home = styled.div`
         border-radius: 10px;
         padding-left: 40px;
         padding-right: 40px;
+        margin-left: 100px;
 
         &:hover {
           background-color: #005bb5;
