@@ -1,35 +1,45 @@
 import Logo from "../assets/logo-escura.png"
 
+import { Home } from "../styles/Refs.styles.js"
+
 export function Refs() {
   return (
-    <div>
-      <header class="header">
+    <Home>
+      <header className="header">
         <div className="inicio">
           <img src={Logo} alt="Logo" />
-          <a class="bt1"href="/">Produto</a>
-          <a class="bt2"href="/sobre">Sobre Nós</a>
-          <a class="bt3"href="/guia">Guia</a>
-          <a class="bt4"href="/mate">Materiais</a>
+          <a className="bt1" href="/">Produto</a>
+          <a className="bt2" href="/sobre">Sobre Nós</a>
+          <a className="bt3" href="/guia">Guia</a>
+          <a className="bt4" href="/mate">Materiais</a>
         </div>
       </header>
-      <div>
-        <h1>Referências Bibliográficas</h1>
-        <section>
-            <h3>Análise da eficácia de medida caseira e umidificador na melhora da umidade do ar.</h3>
-        </section>
+      <main>
+        <h1 className="titulo">Referências Bibliográficas</h1>
 
         <section>
-            <h3>Utilização de prototipagem arduino para controlar a umidade em ambientes climatizados.</h3>
+          <section className="referencia">
+              <div className="numero">1</div>
+              <div className="texto">Análise da eficácia de medida caseira e umidificador na melhora da umidade do ar.</div>
+          </section>
+
+          <section className="referencia">
+              <div className="numero">2</div>
+              <div className="texto">Utilização de prototipagem arduino para controlar a umidade em ambientes climatizados.</div>
+          </section>
+
+          <section className="referencia">
+              <div className="numero">3</div>
+              <div className="texto">Associação entre poluição do ar e fenótipos da asma em Salvador, Brasil, uma cidade com níveis de poluentes dentro dos limites recomendáveis.</div>
+          </section>
+
+          <section className="referencia">
+              <div className="numero">4</div>
+              <div className="texto">Poluição ambiental como fator de risco para o aumento de asma brônquica?</div>
+          </section>
         </section>
 
-        <section>
-            <h3>Associação entre poluição do ar e fenótipos da asma em salvador, brasil, uma cidade com níves de poluetes dentro dos limites recomendáveis.</h3>
-        </section>
-
-        <section>
-            <h3>Poluição ambiental como factor de risco para o aumento de asma brônquica?</h3>
-        </section>
-      </div>
-    </div>
+      </main>
+    </Home>
   )
 }
