@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png"
+import tresPontos from "../assets/tres-pontos.png"
 
 import { Home } from "../styles/pagina1.styles"
 
@@ -8,6 +9,7 @@ export function Pagina1() {
       <header>
         <div class="Logo">
           <img src={logo} alt="" />
+          <img class="tresPontos"src={tresPontos} alt="" />
         </div>
         <h1 class="Titulo">AeroGuard Tech</h1>
       </header>
