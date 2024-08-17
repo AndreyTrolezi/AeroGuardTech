@@ -1,19 +1,12 @@
 import Logo from "../assets/logo-escura.png"
+import { Header } from "../components/Header.jsx"
 
 import { Home } from "../styles/Refs.styles.js"
 
 export function Refs() {
   return (
     <Home>
-      <header className="header">
-        <div className="inicio">
-          <img src={Logo} alt="Logo" />
-          <a className="bt1" href="/">Produto</a>
-          <a className="bt2" href="/sobre">Sobre Nós</a>
-          <a className="bt3" href="/guia">Guia</a>
-          <a className="bt4" href="/mate">Materiais</a>
-        </div>
-      </header>
+      <Header/>
       <main>
         <h1 className="titulo">Referências Bibliográficas</h1>
 

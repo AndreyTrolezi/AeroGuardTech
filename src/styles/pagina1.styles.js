@@ -101,6 +101,7 @@ export const Home = styled.div`
   padding: 50px;
   text-align: center;
   overflow-x: hidden;
+  overflow-y: hidden;
   
   .Logo {
     font-size: 2rem;
@@ -117,6 +118,7 @@ export const Home = styled.div`
       position: absolute;
       top: 2rem;
       right: 2rem;
+      background: none;
     }
   }
 
@@ -153,7 +155,7 @@ export const Home = styled.div`
 
   .Descricao, .Descricao1 {
     font-size: 1.5rem;
-    color: #000;
+    color: #1A2D7A;
     margin-top: 20px;
     margin-left: 1.5rem;
     margin-right: 1.5rem;

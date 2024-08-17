@@ -6,46 +6,6 @@ export const Home = styled.div`
   border: 10px solid #1A2D7A;
   padding-bottom: 11.2rem;
   flex-direction: row;
-  
-
-  .header {
-    background-color: #1A2D7A;
-    padding: 9,5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid #1A2D7A;
-
-    .inicio {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-
-      img {
-        font-size: 2rem;
-        color: #0a0a78;
-        max-width: 120px;
-        max-height: 120px;
-      }
-
-      .bt1, .bt2, .bt3, .bt4 {
-        background-color: #1465bb;
-        color: #ffff;
-        text-decoration: none;
-        font-size: 28px;
-        margin-right: 4.5rem;
-        padding: 15px;
-        border-radius: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
-        margin-left: 100px;
-        
-        &:hover {
-          background-color: #005bb5;
-        }
-      }
-    }
-  }
 
   main {
     text-align: center;
