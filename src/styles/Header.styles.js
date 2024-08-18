@@ -8,14 +8,14 @@ export const Cabeca = styled.header`
   justify-content: space-between;
   align-items: center;
   border-bottom: 10px solid #1A2D7A;
-  padding-left: 7rem;
+  padding-left: 6rem;
   z-index: 1000;
 
   .inicio {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding-right: 17rem;
+    gap: 1.7rem;
+    padding-right: 11rem;
   }
   
   img {

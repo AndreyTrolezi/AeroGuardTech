@@ -17,7 +17,7 @@ export function Botao() {
       {mostrarPopup && (
         <PopupContainer>
           <a href="/sobre">Sobre Nós</a>
-          <a href="/mate">Materiais</a>
+          <a href="/mate1">Materiais</a>
           <a href="/refs">Referências</a>
           <a href="/guia">Guia</a>
         </PopupContainer>

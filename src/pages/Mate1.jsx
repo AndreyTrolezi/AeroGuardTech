@@ -24,17 +24,17 @@ export function Mate() {
         
         <div class="imgs">
       
-          <section>
+          <div>
             <a><img class="setaE"src={ seta_esq } alt="Seta esquerda" /></a>
-          </section>
+          </div>
 
           <section>
             <img class= "arduino" src={Arduino} alt="" />
           </section>
 
-          <section>
+          <div>
             <a><img class="setaD"src={ seta_dir } alt="Seta direita" /></a>
-          </section>
+          </div>
           
         </div>
       </main>
