@@ -9,7 +9,7 @@ export function Guia() {
     <Home>
       <Responsivo/>
         <main>
-          <h1 className="titulo">Guia de Utilização</h1>
+          <h1 className="Titulo">Guia de Utilização</h1>
           <div className="sections">
 
             <section>
@@ -19,9 +19,9 @@ export function Guia() {
               <img class="n1" src={cerebro} alt="Funcionalidade" />
             </section>
 
-            <section class="controle">
-              <div className="numero2">2</div>
+            <section>
               <img class="n2" src={olho} alt="Controle Intuitivo" />
+              <div className="numero2">2</div>
               <h3>Controle Intuitivo</h3>
               <p>Receba alertas em tempo real no seu aplicativo quando as condições de temperatura ou umidade ultrapassarem os limites definidos. Visualize os dados detalhados das medições recentes e históricas. Ajuste facilmente os limites de alerta e as configurações do dispositivo através do aplicativo.</p>
             </section>
