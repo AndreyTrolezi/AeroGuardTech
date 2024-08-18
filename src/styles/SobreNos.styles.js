@@ -4,44 +4,44 @@ export const Home = styled.div`
 
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
-  padding-bottom: 11.2rem;
+  padding-bottom: 57px;
   flex-direction: row;
 
-  main {
-    text-align: center;
-    padding: 40px 20px;
-
-    h1 {
-      color: #119dfc;
-      font-size: 60px;
-      margin-bottom: 40px;
+    .Titulo{
+      text-align: center;
+      color: #119DFC;
+      font-size: 98px;
+      margin: 1.5rem;
+      margin-bottom: 40px
     }
+
 
     section {
       margin-bottom: 40px;
 
       h3 {
         color: #1308aa;
-        font-size: 20px;
+        font-size: 26px;
         margin-bottom: 5px;
       }
 
       img {
-        width: 150px;
-        height: 150px;
+        width: 218px;
+        height: 218px;
         object-fit: cover;
         margin-bottom: 15px;
       }
 
       h2 {
         color: #119dfc;
-        font-size: 20px;
+        font-size: 36px;
         margin-bottom: 5px;
       }
 
       p {
-        font-size: 16px;
+        font-size: 22px;
         margin: 5px 0;
+        color: #1A2D7A;
       }
     }
   }

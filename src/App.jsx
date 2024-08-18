@@ -9,7 +9,7 @@ import { GlobalStyle } from "./styles/global.js"
 import { SobreNos } from "./pages/SobreNos.jsx"
 import { Refs } from "./pages/Refs.jsx"
 import { Guia } from "./pages/Guia.jsx"
-import { Mate } from "./pages/Mate.jsx"
+import { Mate } from "./pages/Mate1.jsx"
 
 const router = createBrowserRouter([
   {
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     element: <Guia/>
   },
   {
-    path: "/mate",
+    path: "/mate1",
     element: <Mate/>
   }
 ])

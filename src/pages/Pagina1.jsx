@@ -26,7 +26,7 @@ export function Pagina1() {
         <div class="coluna">
           <div class="espaco">
             <a class="link1" href="/sobre" >Sobre nós</a> {/*precisa do msm nome q ta no path pro bglh aq funcionar, como la ta /teste, tem q colocar /teste aq pq senao da erro*/}
-            <a class="link2"href="/mate" >Materiais</a>
+            <a class="link2"href="/mate1" >Materiais</a>
           </div>
           <div class="espaco">
             <a class="link3"href="/refs" >Referências</a>

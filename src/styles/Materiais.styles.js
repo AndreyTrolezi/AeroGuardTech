@@ -4,52 +4,49 @@ export const Home = styled.div`
 
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
+  padding-bottom: 19px;
   max-width: 100%;
-  padding-bottom: 20rem;
-
-  main {
+  
+ .titulo {
     text-align: center;
-    padding: 40px 20px;
-
-    h1 {
-      color: #119DFC;
-      font-size: 60px;
-      margin-bottom: 40px;
-    }
+    color: #119DFC;
+    font-size: 98px;
+    margin: 1.5rem;
+    margin-bottom: 40px;
+  }
+ 
+  .Subtitulo{
+    text-align: center;
+    color: #1A2D7A;
+    font-size: 40px;
   }
 
-  .imgs {
+ .Preco{
+    text-align: center;
+    color: #119DFC;
+    font-size: 30px;
+    margin-bottom: 30px;
+ }
+
+  .imgs{
     display: flex;
     justify-content: center;
-  }
-
-  .espaco {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 9.5rem;
+    aling-itens-center
   }
 
   .setaD {
-    margin-left: 6rem;
-    margin-top: 5rem;
+    margin-left: 8rem;
+    margin-top: 10rem;
   }
 
   .setaE {
-    margin-top: 5rem;
+    margin-top: 10rem;
+    margin-right: 8rem;
   }
 
   .espaco1 {
     margin-left: 10rem;
   }
-
-  p {
-    margin-left: 10rem;
-    font-size: 25px;
-    color: #1308AA;
-    margin-bottom: 1rem;
-  }
-
 
 @media (max-width: 425px) {
 
@@ -70,15 +67,6 @@ export const Home = styled.div`
     }
   }
 
-  
-
-  .espaco {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 9.5rem;
-  }
-
   .setaD {
     margin-left: 6rem;
     margin-top: 5rem;
@@ -88,33 +76,8 @@ export const Home = styled.div`
     margin-top: 5rem;
   }
 
-  .espaco1 {
-    margin-left: 10rem;
-  }
-
-  p {
-    margin-left: 10rem;
-    font-size: 25px;
-    color: #1308AA;
-    margin-top: 15rem;
-    text-align: center;
-  }
-
   img {
     max-width: 100px;
   }
-
-  .espaco1 {
-    margin-left: 90px;
-  }
-
-  .espaco {
-    margin-right: 2rem;
-  }
-
-  .RoboCore {
-    margin-left: 65px;
-  }
-}
 
 `

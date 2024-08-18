@@ -8,18 +8,19 @@ export const Cabeca = styled.header`
   justify-content: space-between;
   align-items: center;
   border-bottom: 10px solid #1A2D7A;
-  padding-left: 12rem;
+  padding-left: 7rem;
   z-index: 1000;
 
   .inicio {
     display: flex;
     align-items: center;
     gap: 20px;
-
-    img {
-      max-width: 120px;
-      max-height: 120px;
-    }
+    padding-right: 17rem;
+  }
+  
+  img {
+    max-width: 120px;
+    max-height: 120px;
   }
 
   @media (max-width: 425px) {

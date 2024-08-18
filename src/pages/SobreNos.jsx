@@ -13,7 +13,7 @@ export function SobreNos() {
     <Home>
       <Responsivo/>
       <main>
-        <h1>Sobre Nós</h1>
+        <h1 class="Titulo">Sobre Nós</h1>
         <section class="imgs">
 
           <section class="espaco1">

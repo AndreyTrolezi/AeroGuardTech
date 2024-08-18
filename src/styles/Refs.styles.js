@@ -4,13 +4,14 @@ export const Home = styled.div`
 
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
-  padding-bottom: 21.6rem;
+  padding-bottom: 44px;
   max-width: 100%;
 
   .titulo {
     text-align: center;
     color: #119DFC;
-    font-size: 60px;
+    font-size: 98px;
+    margin: 3rem;
     margin-bottom: 40px;
   }
 
@@ -18,7 +19,8 @@ export const Home = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 22px;
+    color: #1A2D7A;
   }
 
   .numero {
@@ -31,8 +33,11 @@ export const Home = styled.div`
     align-items: center;
     border-radius: 20%;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 3rem;
     margin-left: 3rem;
+    margin: 3rem;
+    padding: 2rem;
+    font-size: 2.5rem;
   }
 
   .texto {
