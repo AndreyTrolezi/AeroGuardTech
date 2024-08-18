@@ -7,15 +7,14 @@ import seta_dir from "../assets/seta-dir.png"
 import seta_esq from "../assets/seta-esq.png"
 
 import { Home } from "../styles/Materiais.styles"
-import { Header } from "../components/Header"
-import { Botao } from "../components/Botao"
+
+import { Responsivo } from "../components/Responsivo"
 
 
 export function Mate() {
   return (
     <Home>
-      <Header/>
-      <Botao/>
+      <Responsivo/>
       <main>
         <h1>Materiais Utilizados</h1>
         <div class="imgs">

@@ -1,28 +1,27 @@
-import Trespontos from "../assets/tres-pontos.png"
-import { useState } from "react"
-import { Bot } from "../styles/Botao.styles"
+import { useState } from "react";
+import { BotaoContainer, PopupContainer } from "../styles/Botao.styles.js";
+import tresPontos from "../assets/tres-pontos.png";
 
 export function Botao() {
-  const [active, setMode] = useState(false);
-  const ToggleMode = () => {
-    setMode(!active)
+  const [mostrarPopup, setMostrarPopup] = useState(false);
+
+  const togglePopup = () => {
+    setMostrarPopup(!mostrarPopup);
   };
 
   return (
-    <Bot>
-      <div className={active ? 'icon iconActive' : 'icon'}>
-        <button className="hamburger hamburgerIcon"><img src={Trespontos} alt="" /></button>
-      </div>
-      <div className={active ? 'menuOpen' : 'menu menuClose'}>
-        <div className="list">
-          <ul className="listItems">
-            <li><a href="/sobre">Sobre Nós</a></li>
-            <li><a href="/mate">Materias</a></li>
-            <li><a href="/refs">Referências</a></li>
-            <li><a href="/guia">Guia</a></li>
-          </ul>
-        </div>
-      </div>
-    </Bot>
-  )
+    <>
+      <BotaoContainer onClick={togglePopup}>
+        <img src={tresPontos} alt="Menu" />
+      </BotaoContainer>
+      {mostrarPopup && (
+        <PopupContainer>
+          <a href="/sobre">Sobre Nós</a>
+          <a href="/mate">Materiais</a>
+          <a href="/refs">Referências</a>
+          <a href="/guia">Guia</a>
+        </PopupContainer>
+      )}
+    </>
+  );
 }

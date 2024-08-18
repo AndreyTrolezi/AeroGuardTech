@@ -6,12 +6,12 @@ import trolezi from "../assets/tornolezi.png"
 import steve from "../assets/stevenark.png"
 
 import { Home } from "../styles/SobreNos.styles"
-import { Header } from "../components/Header"
+import { Responsivo } from "../components/Responsivo"
 
 export function SobreNos() {
   return (
     <Home>
-      <Header/>
+      <Responsivo/>
       <main>
         <h1>Sobre Nós</h1>
         <section class="imgs">

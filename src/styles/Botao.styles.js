@@ -1,69 +1,39 @@
 import styled from "styled-components";
 
-export const Bot = styled.div`
-    display: none;
+// Estilização do botão de menu
+export const BotaoContainer = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
 
-    @media (max-width: 425px) {
-        display: block;
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-        background: none;
-        border: none;
+  img {
+    margin-left: 17.7rem;//aq bob é onde manda a imagem dos tres pontos para o lado, pro popup sumir tem q clicar nele dnv, oq eu achei zoado mas foi o melhor q eu pude fazer
+    width: 20px;
+    height: 40px;
+  }
+`;
 
-        .icon {
-            position: absolute;
-            z-index: 4;
-            left: 1%;
-            width: fit-content;
-            height: 44px;
-            cursor: pointer;
-        }
+// Estilização do pop-up do menu
+export const PopupContainer = styled.div`
+  position: absolute;
+  top: 20px;
+  right: 4.5rem;
+  background-color: #ffffff;
+  border: 2px solid #1a2d7a;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 
-        .hamburger {
-            width: 30px;
-            height: 65px;
-            position: absolute;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            transition: 0.5s;
-        }
+  a {
+    color: #1465bb;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 3rem;
+    
 
-        .list {
-            display: flex;
-            flex-direction: column;
-            left: 1%;
-            margin: 45px 0 0;
-            flex-wrap: nowrap;
-            color: white;
-            font-size: 1.2rem;
-            font-weight: 600;
-        }
-
-        .list listItems {
-            padding: 0;
-            list-style: none;
-        }
-
-        .list .listItems li {
-            margin: 2px 0;
-            cursor: pointer;
-        }
-
-        .list .listItems li:hover {
-            font-weight: 800;
-        }
-
-        .icon .iconActive .hamburger {
-            background: transparent;
-            box-shadow: 0 2px 5px transparent;
-        }
-
-        .menu.menuOpen {
-            width: 150px;
-            height: 100vh;
-            background: #000;
-        }
-
-        
+    &:hover {
+      color: #005bb5;
     }
-`
+  }
+`;

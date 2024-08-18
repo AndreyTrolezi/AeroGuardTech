@@ -2,12 +2,12 @@ import cerebro from "../assets/eng-cerebro.png";
 import olho from "../assets/olho.png";
 import eng from "../assets/eng-config.png";
 import { Home } from "../styles/Guia.styles";
-import { Header } from "../components/Header";
+import { Responsivo } from "../components/Responsivo";
 
 export function Guia() {
   return (
     <Home>
-      <Header/>
+      <Responsivo/>
         <main>
           <h1 className="titulo">Guia de Utilização</h1>
           <div className="sections">

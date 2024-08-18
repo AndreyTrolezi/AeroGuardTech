@@ -112,14 +112,6 @@ export const Home = styled.div`
       max-width: 200px;
       max-height: 200px;
     }
-
-    .tresPontos {
-      display: block;
-      position: absolute;
-      top: 2rem;
-      right: 2rem;
-      background: none;
-    }
   }
 
   .Titulo {

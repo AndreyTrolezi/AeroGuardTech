@@ -1,17 +1,15 @@
 import logo from "../assets/logo.png"
 import tresPontos from "../assets/tres-pontos.png"
-import { Header } from "../components/Header";
-
+import { Botao } from "../components/Botao"
 import { Home } from "../styles/pagina1.styles"
 
 export function Pagina1() {
   return (
     <Home>
-      <Header/>
+      <Botao/>
       <header>
         <div class="Logo">
           <img src={logo} alt="" />
-          <button class="tresPontos"><img src={tresPontos} alt="" /></button>
         </div>
         <h1 class="Titulo">AeroGuard Tech</h1>
       </header>

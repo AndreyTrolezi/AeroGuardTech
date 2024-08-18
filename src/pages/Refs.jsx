@@ -1,12 +1,13 @@
 import Logo from "../assets/logo-escura.png"
-import { Header } from "../components/Header.jsx"
+import { Responsivo } from "../components/Responsivo.jsx"
+
 
 import { Home } from "../styles/Refs.styles.js"
 
 export function Refs() {
   return (
     <Home>
-      <Header/>
+      <Responsivo/>
       <main>
         <h1 className="titulo">Referências Bibliográficas</h1>
 
