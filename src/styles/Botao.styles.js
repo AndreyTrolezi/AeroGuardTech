@@ -7,7 +7,7 @@ export const BotaoContainer = styled.button`
   cursor: pointer;
 
   img {
-    margin-left: 17.7rem;//aq bob é onde manda a imagem dos tres pontos para o lado, pro popup sumir tem q clicar nele dnv, oq eu achei zoado mas foi o melhor q eu pude fazer
+    margin-left: 14.7rem;//aq bob é onde manda a imagem dos tres pontos para o lado, pro popup sumir tem q clicar nele dnv, oq eu achei zoado mas foi o melhor q eu pude fazer
     width: 20px;
     height: 40px;
   }
