@@ -93,7 +93,7 @@ export const Home = styled.div`
 
     .Titulo {
       font-size: 50px;
-      text-align; center;
+      text-align: center;
       margin: 20px;
     }
 
