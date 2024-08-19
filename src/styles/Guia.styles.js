@@ -43,7 +43,7 @@ export const Home = styled.div`
 
       .n2 {
         display: flex;
-        margin-top: 20px;
+        margin-top: 245px;
         align-items: center;
       }
 
@@ -64,7 +64,7 @@ export const Home = styled.div`
       }
 
       .numero2 {
-        margin-top: 232px;
+        margin-top: 10px;
       }
 
       .numero3 {
