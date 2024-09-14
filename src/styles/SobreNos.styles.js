@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Home = styled.div`
   background-color: #ffffff;
   border: 10px solid #1A2D7A;
-  padding-bottom: 204px;
+  padding-bottom: 450px;
   flex-direction: row;
 
   .Titulo {
@@ -20,14 +20,7 @@ export const Home = styled.div`
     h3 {
       color: #1308aa;
       font-size: 26px;
-      margin-bottom: 5px;
-    }
-
-    img {
-      width: 218px;
-      height: 218px;
-      object-fit: cover;
-      margin-bottom: 15px;
+      padding-bottom: 18px;
     }
 
     h2 {
@@ -46,8 +39,9 @@ export const Home = styled.div`
   .imgs {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    flex-wrap: wrap;
+    margin-top: 200px;
+    height: 3px;
+    background: black;
   }
 
   .espaco1, .espaco2, .espaco3, .espaco4 {
@@ -55,8 +49,40 @@ export const Home = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    color: #1A2D7A;
   }
+
+  .tudo {
+    height: 100px;
+
+  }
+
+  .foto1 {
+    margin-top: -170px; 
+  }
+  
+  .foto2 {
+    margin-top: -170px; 
+
+  }
+
+  .foto3 {
+    margin-top: -170px; 
+    
+  }
+
+  .foto4 {
+    margin-top: -170px; 
+
+  }
+
+  .textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -5px;
+  }
+
+
 
   @media (max-width: 425px) {
     .Titulo {
