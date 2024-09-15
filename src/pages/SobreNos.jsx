@@ -17,7 +17,6 @@ export function SobreNos() {
         <section class="imgs">
 
           <section class="espaco1">
-            <h3>Eduardo Chaves</h3>
             <section class="tudo">
               <div class="linha"></div>
               <div class="fotos"></div>
@@ -33,7 +32,6 @@ export function SobreNos() {
           </section>
 
           <section class="espaco2">
-            <h3>Gabriel Silva</h3>
             <section class="tudo">
                 <div class="foto2">
                   <img src={bob} alt="Gabriel Silva" />
@@ -47,7 +45,7 @@ export function SobreNos() {
           </section>
 
           <section class="espaco3">
-            <h3>Andrey Trolezi</h3>
+            
             <section class="tudo">
               <div class="linha"></div>
               <div class="fotos"></div>
@@ -63,7 +61,7 @@ export function SobreNos() {
           </section>
 
           <section class="espaco4">
-            <h3>Vinicius Alves</h3>
+          
             <section class="tudo">
               <div class="linha"></div>
               <div class="fotos"></div>
@@ -71,7 +69,7 @@ export function SobreNos() {
                   <img src={steve} alt="Vinícius Alves" />
                 </div>
             </section>
-            <div class="textos">
+            <div class="textos1">
               <h2>Função</h2>
               <p>Desenvolvedor de Games</p>
               <p>Desenvolvedor de Robótica</p>

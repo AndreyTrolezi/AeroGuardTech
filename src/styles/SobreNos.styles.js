@@ -21,6 +21,7 @@ export const Home = styled.div`
       color: #1308aa;
       font-size: 26px;
       padding-bottom: 18px;
+      margin-bottom: 50px;
     }
 
     h2 {
@@ -39,9 +40,9 @@ export const Home = styled.div`
   .imgs {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
-    height: 3px;
-    background: black;
+    margin-top: 250px;
+    height: 4px;
+    background: #1A2D7A;
   }
 
   .espaco1, .espaco2, .espaco3, .espaco4 {
@@ -58,16 +59,17 @@ export const Home = styled.div`
 
   .foto1 {
     margin-top: -170px; 
+    margin-right: 100px;
   }
   
   .foto2 {
     margin-top: -170px; 
-
+    margin-right: 100px;
   }
 
   .foto3 {
     margin-top: -170px; 
-    
+    margin-right: 100px;
   }
 
   .foto4 {
@@ -79,7 +81,13 @@ export const Home = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: -5px;
+    margin-right: 90px;
+  }
+
+  .textos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
 

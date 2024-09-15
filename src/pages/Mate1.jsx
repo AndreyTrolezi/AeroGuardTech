@@ -29,6 +29,9 @@ export function Mate() {
           </div>
 
           <section>
+            
+            
+            
             <img class= "arduino" src={Arduino} alt="" />
           </section>
 
