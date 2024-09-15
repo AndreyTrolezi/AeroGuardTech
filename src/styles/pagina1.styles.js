@@ -60,7 +60,7 @@ export const Home = styled.div`
     min-width: 300px;
 
     &:hover {
-      background-color: #005bb5;
+      background-color: #005b;
     }
   }
 
@@ -74,6 +74,38 @@ export const Home = styled.div`
     justify-content: center;
     width: 100%;
     margin-bottom: 70px;
+  }
+
+  .link1:hover {
+    background-color: #119DFC;
+    transition: all .5s;
+    letter-spacing: 2px;
+    opacity: 1; 
+    transform: scale(1, 1);
+  }
+
+  .link2:hover {
+    background-color: #119DFC;
+    transition: all .5s;
+    letter-spacing: 2px;
+    opacity: 1; 
+    transform: scale(1, 1);
+  }
+
+  .link3:hover {
+    background-color: #119DFC;
+    transition: all .5s;
+    letter-spacing: 1px;
+    opacity: 1; 
+    transform: scale(1, 1);
+  }
+
+  .link4:hover {
+    background-color: #119DFC;
+    transition: all .5s;
+    letter-spacing: 2px;
+    opacity: 1; 
+    transform: scale(1, 1);
   }
 
   @media (max-width: 425px) {

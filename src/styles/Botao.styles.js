@@ -5,6 +5,7 @@ export const BotaoContainer = styled.button`
   background: none;
   border: none;
   cursor: pointer;
+  display: none;
 
   img {
     margin-top: 20px;

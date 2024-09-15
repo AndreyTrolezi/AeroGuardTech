@@ -3,7 +3,7 @@ import Logo from "../assets/logo-escura.png"
 import seta_dir from "../assets/seta-dir.png"
 import seta_esq from "../assets/seta-esq.png"
 
-import Arduino from "../assets/arduino.png"
+import qualidade from "../assets/sensor de qualidade.png"
 
 
 import { Home } from "../styles/Materiais.styles"
@@ -19,7 +19,7 @@ export function Mate() {
         <h1 class= "titulo">Materiais Utilizados</h1>
         <div>
           <h2 class= "Subtitulo">Arduino UNO</h2>
-          <p class= "Preco">R$ 90,16 </p>
+          <p class= "Preco">R$ 90,16</p>
         </div>
         
         <div class="imgs">
@@ -29,10 +29,7 @@ export function Mate() {
           </div>
 
           <section>
-            
-            
-            
-            <img class= "arduino" src={Arduino} alt="" />
+            <a href=""></a><img class= "arduino" src={qualidade} alt="" />
           </section>
 
           <div>
