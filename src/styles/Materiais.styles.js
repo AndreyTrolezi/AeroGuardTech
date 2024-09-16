@@ -38,7 +38,7 @@ background-color: #ffffff;
   transition: opacity .2s;
   position: absolute;
   width: 100%;
-  max-width: 800px; /* Ajustei o tamanho máximo da imagem */
+  max-width: 900px; /* Ajustei o tamanho máximo da imagem */
 }
 
 .on {
@@ -81,31 +81,29 @@ background-color: #ffffff;
       padding-botton: 15rem;
     }
 
-    .imgs {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 0px;
-    }
-
-    .setaD {
-      margin-left: 0px;
-      margin-top: 25rem;
-      margin-right: 21rem;
-
-      width: 10rem;
-    }
-
-    .setaE {
-      margin-left: 21rem;
-      margin-top: 25rem;
-      margin-right: 0px;
-
-      width: 10rem;
-    }
-
-    .arduino {
-      max-width: 200px;
-      margin-top: 15px;
-    }
+    .container-images {
+    width: 250px;
+    height: 150px;
   }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  #prev-button img, 
+  #next-button img {
+    width: 25px;
+    height: 25px;
+  }
+
+  #prev-button img {
+    margin-left: 30px;
+  }
+
+  .slider {
+    position: absolute;
+    width: 100%;
+    min-width: 300px; /* Ajustei o tamanho máximo da imagem */
+}
+}
 `

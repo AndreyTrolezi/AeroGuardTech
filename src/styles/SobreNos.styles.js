@@ -54,7 +54,6 @@ export const Home = styled.div`
 
   .tudo {
     height: 100px;
-
   }
 
   .foto1 {
@@ -123,7 +122,7 @@ export const Home = styled.div`
     }
 
     .espaco1, .espaco2, .espaco3, .espaco4 {
-      margin: 10px 0;
+      margin: 50px 0;
     }
   }
 `

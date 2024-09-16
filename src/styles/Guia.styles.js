@@ -17,98 +17,91 @@ export const Home = styled.div`
     margin-top: 1.5rem;
   }
 
-  .sections {
+  .card h2 {
+    font-size: 1.2rem;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
     display: flex;
-    justify-content: space-around;
-
-    section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      max-width: 300px;
-
-      h3 {
-        color: #119DFC;
-        font-size: 37px;
-        margin: 20px 0;
-      }
-
-      p {
-        font-size: 18px;
-        margin: 0;
-        min-width: 200%;
-        color: #1A2D7A;
-      }
-
-      .n2 {
-        display: flex;
-        margin-top: 245px;
-        align-items: center;
-      }
-
-      .numero1, .numero3, .numero2 {
-        color: #FFF;
-        font-size: 35px;
-        font-weight: bold;
-        margin-bottom: 20px;
-        background-color: #005bb5;
-        padding: 5px;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        border-radius: 15%;
-      }
-
-      .numero1 {
-        margin-top: 180px;
-      }
-
-      .numero2 {
-        margin-top: 10px;
-      }
-
-      .numero3 {
-        margin-top: 130px;
-      }
-    }
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card-container {
+    perspective: 1000px; /* Para criar o efeito de profundidade */
+  }
+  
+  .card {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado que está por trás */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .card-front {
+    background: linear-gradient(to bottom, #1e5799, #207cca);
+  }
+  
+  .card-back {
+    background: linear-gradient(to bottom, #207cca, #1e5799);
+    transform: rotateY(180deg); /* Gira o verso para que ele comece escondido */
   }
 
   @media (max-width: 425px) {
     padding-bottom: 150px;
 
-    .Titulo {
-      font-size: 48px;       
-      margin-left: 1rem;     
-      margin-right: 1rem;
-      margin-top: 1rem;
-    }
-
-    .sections {
-      flex-direction: column;
-      align-items: center;
-
-      section {
-        max-width: 100%;
-        margin-bottom: 40px;
-
-        h3 {
-          font-size: 24px;         
-        }
-
-        p {
-          font-size: 16px;          
-          min-width: auto;       
-          padding: 0 1rem; 
-        }
-
-        .numero1, .numero3, .numero2 {
-          display: none;      
-        }
-
-        .n1, .n2, .n3 {
-          display: none;      
-        }
-      }
-    }
+  .cards {
+    flex-direction: column;
+    align-items: center;
   }
-`;
+
+  .card {
+    width: 150px;
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .card-front, .card-back {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .card .icon {
+    font-size: 2.5rem;
+  }
+}
+`
