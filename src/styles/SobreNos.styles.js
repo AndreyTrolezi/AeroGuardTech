@@ -89,8 +89,6 @@ export const Home = styled.div`
     align-items: center;
   }
 
-
-
   @media (max-width: 425px) {
     .Titulo {
       font-size: 48px; 
@@ -116,13 +114,19 @@ export const Home = styled.div`
     }
 
     .imgs {
+      display: flex;
+      justify-content: column;
       flex-direction: column;
       align-items: center;
       margin-top: 50px;
     }
 
     .espaco1, .espaco2, .espaco3, .espaco4 {
-      margin: 50px 0;
+      margin: 50px ;
+    }
+
+    .tudo {
+      height: 100px;
     }
   }
 `

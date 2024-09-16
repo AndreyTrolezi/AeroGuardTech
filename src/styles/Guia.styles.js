@@ -18,7 +18,7 @@ export const Home = styled.div`
   }
 
   .card h2 {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   
   .container {
@@ -35,7 +35,7 @@ export const Home = styled.div`
   .cards {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
   }
   
   .card-container {
@@ -43,8 +43,8 @@ export const Home = styled.div`
   }
   
   .card {
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 550px;
     position: relative;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -80,6 +80,15 @@ export const Home = styled.div`
 
   @media (max-width: 425px) {
     padding-bottom: 150px;
+
+  .container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .card h2 {
+    font-size: 1rem;
+  }
 
   .cards {
     flex-direction: column;

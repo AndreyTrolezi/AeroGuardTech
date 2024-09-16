@@ -5,18 +5,13 @@ export const BotaoContainer = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-  display: none;
+  display: flex;
 
   img {
     margin-top: 20px;
     margin-left: 23rem;//aq bob é onde manda a imagem dos tres pontos para o lado, pro popup sumir tem q clicar nele dnv, oq eu achei zoado mas foi o melhor q eu pude fazer
     width: 20px;
     height: 40px;
-  }
-
-  @media (max-width: 425px) {
-    .BotaoContainer img {
-      display: flex;
   }
 `;
 
