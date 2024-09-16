@@ -13,6 +13,11 @@ export const BotaoContainer = styled.button`
     width: 20px;
     height: 40px;
   }
+
+  @media (max-width: 425px) {
+    .BotaoContainer img {
+      display: flex;
+  }
 `;
 
 // Estilização do pop-up do menu
